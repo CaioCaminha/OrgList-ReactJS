@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# Bem-Vindo ao Front-End do OrgList
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Essa é uma aplicação web desenvolvida em ReactJS, que tem como objetivo auxiliar na organização de projetos e tarefas diárias.
+O projeto foi idealizado e desenvolvido 100% por mim, e disponibilizo aqui em open source para ajudar ou servir de inspiração 
+para pessoas que assim como eu amam programação/desenvolvimento de software.
 
-## Available Scripts
+##API´S
+A aplicação usufrui de uma API desenvolvida em Spring que provê a maior parte dos dados e uma API NodeJS que apesar de menos 
+utilizada possui papel importante no bom funcionamento da aplicação
 
-In the project directory, you can run:
+###API Spring: https://github.com/CaioCaminha/API-REST-SpringBoot
+###API NodeJS: https://github.com/CaioCaminha/OrgList-API-NodeJS
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ambas desenvolvidas por mim, estão conectadas a um banco de dados PostgreSQL por meio de tecnologias de ORM, e hospedadas no 
+Heroku, este WebService tem como objetivo também criar esperiência prática para aperfeiçoar meus conhecimentos em desenvolvimento
+de aplicações web.
