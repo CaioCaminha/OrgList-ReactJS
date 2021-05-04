@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+#header-component{
+    height: 80px;
+    width: 91%;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 9%;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid black;
+}
+
+.header-text{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 45%;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-search{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 25%;
+    left: 5%;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #E1E0E4;
+}
+.button-search{
+    border: none;
+    position: absolute;
+    top: 25%;
+    left: 5.5%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #E1E0E4;
+}
+.button-search :hover{
+    cursor: pointer ;
+}
+.search-svg{
+    position: relative;
+    border: none;
+}
+
+.user-svg{
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    width: 45;
+    height: 45;
+}
+
+.alert-svg{
+    position: absolute;
+    top: 20%;
+    right: 8%;
+    width: 50;
+    height: 50;
+}
