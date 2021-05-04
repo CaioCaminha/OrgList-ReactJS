@@ -12,5 +12,5 @@ utilizada possui papel importante no bom funcionamento da aplicação
 ### API NodeJS: https://github.com/CaioCaminha/OrgList-API-NodeJS
 
 Ambas desenvolvidas por mim, estão conectadas a um banco de dados PostgreSQL por meio de tecnologias de ORM, e hospedadas no 
-Heroku, este WebService tem como objetivo também criar esperiência prática para aperfeiçoar meus conhecimentos em desenvolvimento
+Heroku, este WebService tem como objetivo também criar experiência prática para aperfeiçoar meus conhecimentos em desenvolvimento
 de aplicações web.
