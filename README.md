@@ -8,7 +8,7 @@ para pessoas que assim como eu amam programação/desenvolvimento de software.
 A aplicação usufrui de uma API desenvolvida em Spring que provê a maior parte dos dados e uma API NodeJS que apesar de menos 
 utilizada possui papel importante no bom funcionamento da aplicação
 
-### API Spring: https://github.com/CaioCaminha/API-REST-SpringBoot
+### API Spring: https://github.com/CaioCaminha/OrgList-API-Spring
 ### API NodeJS: https://github.com/CaioCaminha/OrgList-API-NodeJS
 
 Ambas desenvolvidas por mim, estão conectadas a um banco de dados PostgreSQL por meio de tecnologias de ORM, e hospedadas no 
