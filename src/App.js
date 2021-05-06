@@ -1,13 +1,26 @@
 import BarraLateralComponent from "./BarraLateralComponent/BarraLateralComponent" 
-import HeaderComponent from "./HeaderComponent/HeaderLogadoComponent"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import "./reset.css"
+import FooterComponent from "./FooterComponent/FooterComponent"
+import LoginComponent from "./LoginComponent/LoginComponent"
 
 function App() {
   return (
-    <div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+        </Route>
+        <Route path="/login">
+          <LoginComponent/>
+        </Route>
+        <Route path="/home">
+        </Route>
+        <Route path="/newProject">
+        </Route>
+      </Switch>
       <BarraLateralComponent/>
-      <HeaderComponent/>
-    </div>
+      <FooterComponent/>
+    </Router>
   );
 }
 

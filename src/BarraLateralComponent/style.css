@@ -15,16 +15,23 @@
     width: 87px;
     height: 127px;
 }
+.settings-svg{
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    width: 40px;
+    height: 40px;
+}
 .book-svg{
     position: absolute;
-    top: 35%;
+    top: 60%;
     left: 30%;
     width: 40px;
     height: 40px;
 }
 .home-svg{
     position: relative;
-    top: 33%;
+    top: 5%;
     left: 30%;
     width: 45px;
     height: 45px;

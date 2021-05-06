@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap');
+
+.login-header{
+    height: 13%;
+    width: 91%;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 9%;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid black;
+}
+
+.login-header-text{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 45%;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#login-component{
+    position: absolute;
+    top:13%;
+    left: 9%;
+    height: 87%;
+    width: 91%;
+    background-image: url(../backgrounds/sky.jpg);
+    background-position: bottom;
+}
+
+.login-header-boox{
+    display: inline;
+}
+
+.login-header-link{
+    display: inline;
+    width: 290px;
+    height: 40px;
+    top: 15%;
+    position: absolute;
+    right: 4%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.login-header-link :hover{
+    font-size: 21px;
+    color: blueviolet;
+}
+
+.login-header-link p{
+    position: absolute;
+    left: 18%;
+    top: 35%;
+}
+
+.user-svg{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.login-form-box{
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 33%;
+    width: 450px;
+    height: 450px;
+    background-color: #F0F0F0;
+}
+
+.login-text{
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    top: 5%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.login-form{
+    width: 450px;
+    height: 450px;
+}
+.login-form input{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    border: 0;
+    border-radius: 3px;
+    width: 350px;
+    height: 65px;
+    top: 12%;
+    left: 11%;
+    margin-bottom: 10%;
+}
+
+.login-button{
+    position: relative;
+    background: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    top: 12%;
+    left: 27%;
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: #8C82FC;
+    transition-delay: 0.05s;
+}
+
+
+.login-button :hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #8C82FC;
+}
+
+.login-button p{
+    transition-delay: 0.05s;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 15px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 15px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 15px;
+
+  }
+
+
+
