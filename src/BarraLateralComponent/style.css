@@ -2,7 +2,7 @@
     display: block;
     position: absolute;
     height: 100%;
-    width: 9%;
+    width: 123px;
     background-color: #B8BFFD;
 }
 
@@ -11,36 +11,36 @@
 .logo-svg{
     position: relative;
     margin-top: 10px;
-    margin-left: 15%;
+    margin-left: 20px;
     width: 87px;
     height: 127px;
 }
 .settings-svg{
-    position: absolute;
-    top: 43%;
-    left: 30%;
+    position: relative;
+    top: 22%;
+    left: 0%;
     width: 40px;
     height: 40px;
 }
 .book-svg{
-    position: absolute;
-    top: 60%;
-    left: 30%;
+    position: relative;
+    top: 35%;
+    left: 35%;
     width: 40px;
     height: 40px;
 }
 .home-svg{
     position: relative;
     top: 5%;
-    left: 30%;
+    left: 35%;
     width: 45px;
     height: 45px;
 }
 
 .help-svg{
-    position: absolute;
-    bottom: 3%;
-    left: 30%;
+    position: relative;
+    top: 60%;
+    left: 2%;
     width: 40px;
     height: 40px;
 }
