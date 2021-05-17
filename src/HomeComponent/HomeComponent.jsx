@@ -8,9 +8,9 @@ export default function HomeComponent() {
     return(
         <div className="home-component">
             <header className="header-home">
-                <input type="text" placeholder="search here..." className="header-search"/>
-                <h1 className="header-text">OrgList</h1>
-                <Link to="/" className="user-svg"><UserSvg/></Link>
+                <input type="text" placeholder="search here..." className="header-search-home"/>
+                <Link to="/home"><h1 className="header-text-home">OrgList</h1></Link>
+                <Link to="/" className="user-svg-home"><UserSvg/></Link>
             </header>
         </div>
     );
