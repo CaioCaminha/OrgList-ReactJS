@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .home-component{
     position: absolute;
-    background-color: #FFFFFF;
     left: 9%;
     top: 0;
     height: 100%;
     width: 91%;
+    display: block;
+    background-image: url("../backgrounds/cleanBackground.jpg");
+    background-position: top;
 }
 .header-home{
     background-color: white;
@@ -42,4 +44,10 @@
     right: 2.5%;
     width: 45;
     height: 45;
+}
+
+.main-home{
+    position: relative;
+    width: 100%;
+    height: 88;
 }

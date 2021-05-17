@@ -12,6 +12,9 @@ export default function HomeComponent() {
                 <Link to="/home"><h1 className="header-text-home">OrgList</h1></Link>
                 <Link to="/" className="user-svg-home"><UserSvg/></Link>
             </header>
+            <main className="main-home">
+
+            </main>
         </div>
     );
 }
