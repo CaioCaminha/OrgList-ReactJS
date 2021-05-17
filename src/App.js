@@ -4,6 +4,7 @@ import "./reset.css"
 import FooterComponent from "./FooterComponent/FooterComponent"
 import LoginComponent from "./LoginComponent/LoginComponent"
 import SignupComponent from "./SignupComponent/SignupComponent"
+import HomeComponent from "./HomeComponent/HomeComponent"
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <SignupComponent/>
         </Route>
         <Route path="/home">
-
+          <HomeComponent/>
         </Route>
         <Route path="/newProject">
 

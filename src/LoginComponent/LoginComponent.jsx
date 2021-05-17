@@ -5,7 +5,7 @@ import "./style.css"
 
 export default function LoginComponent(){
     return(
-        <>  
+          <>
             <header className="login-header">
                 <Link to="/home" className="login-header-text-link">
                     <h1 className="login-header-text" >OrgList</h1>
@@ -17,7 +17,9 @@ export default function LoginComponent(){
                     </Link>
                 </div>
             </header>
-            <div id="login-component">
+            
+        <main>
+                <div id="login-component">
                 <div className="login-form-box">
                     <form className="login-form">
                         <h2 className="login-text"> Login </h2>
@@ -27,6 +29,7 @@ export default function LoginComponent(){
                     </form>
                 </div>
             </div>
+        </main>
         </>
     );
 }
